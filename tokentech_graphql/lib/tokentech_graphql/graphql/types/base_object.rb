@@ -4,7 +4,7 @@ module TokentechGraphql
   module Graphql
     module Types
       class BaseObject < GraphQL::Schema::Object
-        field_class Okft::Graphql::Types::BaseField
+        field_class TokentechGraphql::Graphql::Types::BaseField
       end
     end
   end
